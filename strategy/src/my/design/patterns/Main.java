@@ -1,7 +1,9 @@
 package my.design.patterns;
 
-import my.design.patterns.baseanimal.Animal;
-import my.design.patterns.behaviorimpl.*;
+import my.design.patterns.fisrtimpl.baseanimal.Animal;
+import my.design.patterns.fisrtimpl.behaviorimpl.*;
+import my.design.patterns.secondimpl.manager.OperationManager;
+import my.design.patterns.secondimpl.operation.Addition;
 
 public class Main {
 
@@ -24,5 +26,10 @@ public class Main {
         snake.fly();
         snake.creep();
         System.out.println();
+
+
+        OperationManager operationManager = new OperationManager();
+        operationManager.setStrategy(new Addition());
+        System.out.println(operationManager.execute(7,9));
     }
 }
