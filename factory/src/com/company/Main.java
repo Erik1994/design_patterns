@@ -11,9 +11,11 @@ import com.company.factorypattern.ianimal.Animal;
 public class Main {
 
     public static void main(String[] args) {
+        //Factory pattern
         Animal animal = AnimalFactory.getAnimal(AnimalType.CAT);
         animal.eat();
 
+        //Abstract Factory pattern
         IFactory engine = EngineFactory.getFactory(EngineType.ELECTRIC);
         engine.getCar(CarModelTypes.FORD).assemble();
 
