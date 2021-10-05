@@ -18,7 +18,7 @@ public abstract class Algorithm {
     }
 
     //template pattern
-    public void sort() {
+    public final void sort() {
         initialize();
         sorting();
         showResult();
