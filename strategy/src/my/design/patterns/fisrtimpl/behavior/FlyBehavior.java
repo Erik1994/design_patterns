@@ -1,5 +1,5 @@
 package my.design.patterns.fisrtimpl.behavior;
 
-public interface IFly {
+public interface FlyBehavior {
     void fly();
 }
