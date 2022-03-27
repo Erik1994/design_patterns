@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="81c44662-821e-43ca-b7a7-886e84700fed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../adapter/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/observable/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/observable/Weather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/observer/MacDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/observer/MacDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/observer/PhoneDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/observer/PhoneDisplay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/observer/TabletDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/observer/TabletDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../template/.idea/runConfigurations.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -74,5 +75,21 @@
       <updated>1604499216475</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/my/design/patterns/observable/Weather.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/my/design/patterns/Main.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
