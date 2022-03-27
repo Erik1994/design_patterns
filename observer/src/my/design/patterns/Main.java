@@ -8,26 +8,15 @@ import my.design.patterns.observer.TabletDisplay;
 public class Main {
 
     public static void main(String[] args) {
-        Weather weatherEng = new Weather();
-        Weather weatherArm = new Weather();
+        Weather weather = new Weather();
 
-        TabletDisplay tabletDisplay = new TabletDisplay();
-        MacDisplay macDisplay = new MacDisplay();
-        PhoneDisplay phoneDisplay = new PhoneDisplay();
+        TabletDisplay tabletDisplay = new TabletDisplay(weather);
+        MacDisplay macDisplay = new MacDisplay(weather);
+        PhoneDisplay phoneDisplay = new PhoneDisplay(weather);
 
-        weatherArm.addObserver(tabletDisplay);
-        weatherArm.addObserver(macDisplay);
-        weatherArm.addObserver(phoneDisplay);
-
-        weatherArm.setTemperature("35C");
-
-        weatherArm.removeObserver(tabletDisplay);
-        weatherArm.removeObserver(macDisplay);
-        weatherEng.addObserver(tabletDisplay);
-        weatherEng.addObserver(macDisplay);
-
-        weatherEng.setTemperature("39C");
-        weatherArm.setTemperature("41C");
+        weather.setTemperature("32C");
+        weather.removeObserver(tabletDisplay);
+        weather.setTemperature("39C");
 
     }
 }

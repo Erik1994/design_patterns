@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="81c44662-821e-43ca-b7a7-886e84700fed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../adapter/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IDisplay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/iobserver/IObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/my/design/patterns/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my/design/patterns/observer/MacDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/observer/MacDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my/design/patterns/observer/PhoneDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/observer/PhoneDisplay.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/my/design/patterns/observer/TabletDisplay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/my/design/patterns/observer/TabletDisplay.java" afterDir="false" />
@@ -86,7 +85,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/my/design/patterns/Main.java</url>
-          <line>23</line>
+          <line>19</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

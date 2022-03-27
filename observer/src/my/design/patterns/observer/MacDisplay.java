@@ -1,10 +1,17 @@
 package my.design.patterns.observer;
 
+import my.design.patterns.iobservable.IObservable;
 import my.design.patterns.iobserver.IDisplay;
 import my.design.patterns.iobserver.IObserver;
 
 public class MacDisplay implements IObserver, IDisplay {
     private String temperature;
+    private IObservable observable;
+
+    public MacDisplay(IObservable observable) {
+        this.observable = observable;
+        observable.addObserver(this);
+    }
 
     @Override
     public void update(String temperature) {
