@@ -14,9 +14,6 @@ public class Main {
         MacDisplay macDisplay = new MacDisplay(weather);
         PhoneDisplay phoneDisplay = new PhoneDisplay(weather);
 
-        weather.setTemperature("32C");
-        weather.removeObserver(tabletDisplay);
-        weather.setTemperature("39C");
-
+        weather.setMeasurements("39C", "50%");
     }
 }
