@@ -20,18 +20,14 @@ public class Main {
         weatherArm.addObserver(phoneDisplay);
 
         weatherArm.setTemperature("35C");
-        weatherArm.notifyChanges();
 
         weatherArm.removeObserver(tabletDisplay);
         weatherArm.removeObserver(macDisplay);
         weatherEng.addObserver(tabletDisplay);
         weatherEng.addObserver(macDisplay);
 
-
         weatherEng.setTemperature("39C");
-        weatherEng.notifyChanges();
-
         weatherArm.setTemperature("41C");
-        weatherArm.notifyChanges();
+
     }
 }

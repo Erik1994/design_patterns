@@ -29,5 +29,6 @@ public class Weather implements IObservable {
 
     public void setTemperature(String temperature) {
         this.temperature = temperature;
+        notifyChanges();
     }
 }
