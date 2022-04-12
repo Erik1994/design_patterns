@@ -1,6 +1,11 @@
 package com.company;
 
-public interface Beverage {
-    int getCost();
-    String getDescription();
+public abstract class Beverage {
+    protected String description;
+
+    public String getDescription() {
+        return description;
+    }
+
+    public abstract int getCost();
 }
