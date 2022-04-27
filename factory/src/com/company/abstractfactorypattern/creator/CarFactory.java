@@ -1,7 +1,7 @@
-package com.company.factorypattern.creator;
+package com.company.abstractfactorypattern.creator;
 
-import com.company.factorypattern.enums.Model;
-import com.company.factorypattern.product.Car;
+import com.company.abstractfactorypattern.enums.Model;
+import com.company.abstractfactorypattern.product.Car;
 
 public interface CarFactory {
     Car createCar();

@@ -1,5 +1,5 @@
 package com.company.abstractfactorypattern.enums;
 
-public enum CarModelTypes {
-    FORD, TOYOTA
+public enum Model {
+    MERCEDES, BMW, TESLA
 }
