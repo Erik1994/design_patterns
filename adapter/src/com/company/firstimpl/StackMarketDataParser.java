@@ -1,6 +1,6 @@
-package com.company.secondimp;
+package com.company.firstimpl;
 
-public class StackMarketDataParser {
+public class StackMarketDataParser implements XMLParser {
     public void parseXml() {
         System.out.println("StackMarketDataParser parsing...");
     }

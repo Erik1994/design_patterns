@@ -1,4 +1,4 @@
-package com.company.secondimp;
+package com.company.firstimpl;
 
 public interface CSVParser {
     void parse();

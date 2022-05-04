@@ -1,9 +1,9 @@
-package com.company.secondimp;
+package com.company.firstimpl;
 
 public class XMLParserAdapter implements CSVParser {
-    private StackMarketDataParser stackMarketDataParser;
+    private XMLParser stackMarketDataParser;
 
-    public XMLParserAdapter(StackMarketDataParser stackMarketDataParser) {
+    public XMLParserAdapter(XMLParser stackMarketDataParser) {
         this.stackMarketDataParser = stackMarketDataParser;
     }
 

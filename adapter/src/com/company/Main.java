@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.secondimp.*;
+import com.company.firstimpl.*;
 
 public class Main {
 

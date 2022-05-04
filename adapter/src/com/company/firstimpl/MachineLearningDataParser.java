@@ -1,4 +1,4 @@
-package com.company.secondimp;
+package com.company.firstimpl;
 
 public class MachineLearningDataParser implements CSVParser {
     @Override
