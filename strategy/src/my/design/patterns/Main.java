@@ -14,6 +14,7 @@ public class Main {
         decoyDuck.quack();
         decoyDuck.setQuackBehavior(new Squeak());
         decoyDuck.quack();
+
         OperationManager operationManager = new OperationManager();
         operationManager.setStrategy(new Addition());
         System.out.println(operationManager.execute(7,9));
