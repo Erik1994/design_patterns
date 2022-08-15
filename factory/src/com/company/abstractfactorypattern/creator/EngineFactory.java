@@ -11,6 +11,6 @@ public interface EngineFactory {
     static EngineFactory createEngineFactory(EngineType engineType) {
         if (engineType == EngineType.ELECTRIC) {
             return new ElectricEngineFactory();
-        } else new PetrolEngineFactory();
+        } else return new PetrolEngineFactory();
     }
 }

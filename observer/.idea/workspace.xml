@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81c44662-821e-43ca-b7a7-886e84700fed" name="Default Changelist" comment="" />
+    <list default="true" id="81c44662-821e-43ca-b7a7-886e84700fed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../adapter/out/production/adapter/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../adapter/out/production/adapter/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/out/production/adapter/com/company/secondimp/CSVParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/out/production/adapter/com/company/secondimp/MachineLearningDataParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/out/production/adapter/com/company/secondimp/RealEstateDataParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/out/production/adapter/com/company/secondimp/StackMarketDataParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../adapter/out/production/adapter/com/company/secondimp/XMLParserAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../facade/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,11 +80,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/my/design/patterns/observable/Weather.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/my/design/patterns/Main.java</url>
           <line>15</line>
