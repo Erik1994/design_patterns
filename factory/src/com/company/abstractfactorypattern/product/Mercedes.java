@@ -1,15 +1,21 @@
 package com.company.abstractfactorypattern.product;
 
-import com.company.abstractfactorypattern.creator.EngineFactory;
+import com.company.abstractfactorypattern.creator.ComponentsFactory;
 
 public class Mercedes extends Car {
-    private EngineFactory engineFactory;
-    public Mercedes(EngineFactory engineFactory) {
+    private ComponentsFactory componentsFactory;
+    public Mercedes(ComponentsFactory componentsFactory) {
+        this.componentsFactory = componentsFactory;
         car = "Mercedes";
     }
 
     @Override
     public void initEngine() {
-        engine = engineFactory.createEngine();
+        engine = componentsFactory.createEngine();
+    }
+
+    @Override
+    public void initSpeaker() {
+        speaker = componentsFactory.createSpeaker();
     }
 }
