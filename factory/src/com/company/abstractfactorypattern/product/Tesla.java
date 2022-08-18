@@ -10,7 +10,7 @@ public class Tesla extends Car {
     }
 
     @Override
-    void initEngine() {
+    public void initEngine() {
         engine = engineFactory.createEngine();
     }
 }

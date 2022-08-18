@@ -7,6 +7,9 @@ import com.company.abstractfactorypattern.product.Car;
 public class BMWFactory implements CarFactory {
     @Override
     public Car createCar() {
-        return new BMW(EngineFactory.createEngineFactory(EngineType.PETROL));
+        //Car bmw = new BMW(EngineFactory.createEngineFactory(EngineType.PETROL));
+        Car bmw = new BMW(new PetrolEngineFactory());
+        bmw.initEngine();
+        return bmw;
     }
 }

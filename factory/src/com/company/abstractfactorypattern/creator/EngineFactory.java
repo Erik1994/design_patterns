@@ -5,12 +5,16 @@ import com.company.abstractfactorypattern.product.ElectricEngine;
 import com.company.abstractfactorypattern.product.Engine;
 import com.company.abstractfactorypattern.product.PetrolEngine;
 
-public interface EngineFactory {
-    Engine createEngine();
+//public interface EngineFactory {
+//    Engine createEngine();
+//
+//    static EngineFactory createEngineFactory(EngineType engineType) {
+//        if (engineType == EngineType.ELECTRIC) {
+//            return new ElectricEngineFactory();
+//        } else return new PetrolEngineFactory();
+//    }
+//}
 
-    static EngineFactory createEngineFactory(EngineType engineType) {
-        if (engineType == EngineType.ELECTRIC) {
-            return new ElectricEngineFactory();
-        } else return new PetrolEngineFactory();
-    }
+public abstract class EngineFactory {
+    public abstract Engine createEngine();
 }
