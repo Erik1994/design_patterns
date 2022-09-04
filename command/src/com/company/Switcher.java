@@ -5,16 +5,22 @@ import java.util.List;
 
 //invoker
 public class Switcher {
-    private List<Command> commands = new ArrayList<>();
+    private Command command;
 
-    public void addCommand(Command command) {
-        commands.add(command);
+    public Switcher(Command command) {
+        this.command = command;
     }
 
-    public void executeCommands() {
-        for(Command command: commands) {
-            command.execute();
-        }
+    public void setCommand(Command command) {
+        this.command = command;
+    }
+
+    public void executeCommand() {
+        command.execute();
+    }
+
+    public void undoCommand() {
+        command.undo();
     }
 
 }

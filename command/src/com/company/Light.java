@@ -3,9 +3,9 @@ package com.company;
 //receiver
 public class Light {
     public void turnOn() {
-        System.out.println("Lights are on...");
+        System.out.println("Light is on...");
     }
     public void turnOff() {
-        System.out.println("Lights are off...");
+        System.out.println("Light is off...");
     }
 }

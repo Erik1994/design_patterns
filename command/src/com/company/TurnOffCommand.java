@@ -11,4 +11,9 @@ public class TurnOffCommand implements Command {
     public void execute() {
         this.light.turnOff();
     }
+
+    @Override
+    public void undo() {
+        this.light.turnOn();
+    }
 }
